@@ -1,6 +1,6 @@
 # Radar de Franquia Agent
 
-O foco do projeto é a criação de um agente de IA que analisa potencial de mercado para abertura de franquias de fast food, como McDonald`s, Burger King, usando dados públicos para avaliar as melhores localidades e gerar insights para investidores.
+O foco do projeto é a criação de um agente de IA que analisa potencial de mercado para abertura de franquias de fast food, como McDonald's, Burger King, usando dados públicos para avaliar as melhores localidades e gerar insights para investidores.
 
 ## O que o Produto faz
 
