@@ -43,10 +43,25 @@ Na seção de conhecimento, se eu tivesse escolhido um outro tipo de modelo, car
 
 Como o modelo não comporta, e se trata de um projeto para fins de conhecimento, apenas inclui um print mostrando um pouco de como funciona esse processo e os tipos de arquivos que podem alimentar esse agente. 
 
-<img width="1020" height="888" alt="image" src="https://github.com/user-attachments/assets/2fcffc65-29b2-43ca-8fbc-e706585a178b" />
+<img width="1020" height="888" alt="Captura de tela da págica do Azure AI Factory, mais especificamente na página de arquivo de conhecimento, onde podemos subir arquivos. Para ilustrar subi um arquivo JSON" src="https://github.com/user-attachments/assets/2fcffc65-29b2-43ca-8fbc-e706585a178b" />
 
 ## 4. Testando o modelo no playground
 
 Com tudo configurado, abri o playground para testar interações com o agente.
+
+
+
+* Modelagem do Agente
+
+<img width="691" height="567" alt="imagem de uma modelagem criada no site draw.io. O intuito dessa modelagem é mostrar o processo de treinamento do agente de IA" src="https://github.com/user-attachments/assets/dd69b67d-d6b8-44f4-a781-d57e2904c948" />
+
+
+Melhorar esse ponto e colocar a descrição detalhada, que por ora, se trata da modelagem que utilizei para a criacao do agente
+Resumo temp. - Eu fiz todo esse processo de dados e treinamento, tanto com dados fictios quanto reais, e ai quando chega ao usuario final, ele pode alimentar o agente com APIs e também com queries/csvs, outras formas de dados para obter respostas mais específicas para o seu negócio. 
+
+
+### Perguntas para fazer ao Agente e testar o modelo
+
+
 
 
