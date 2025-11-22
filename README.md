@@ -60,9 +60,9 @@ Criei um pipeline completo para desenvolver o agente, incluindo coleta, pré-pro
 A arquitetura integra o modelo treinado, a base de conhecimento e as fontes externas, garantindo que o agente processe, refine e entregue insights precisos, mantendo um ciclo contínuo de melhoria.
 
 
-### Perguntas para fazer ao Agente e testar o modelo
+# Perguntas para fazer ao Agente e testar o modelo
 
-Nessa última etapa, foquei em treinar o agente com dados ficticios e reais, e em seguida realizei as seguintes perguntas:
+## Nessa última etapa, foquei em treinar o agente com dados ficticios e reais, e em seguida realizei as seguintes perguntas:
 
 1. Olá! vou anexar um json com dados e gostaria que você realizasse algumas predições, ok?  
  
@@ -115,21 +115,21 @@ Gere um ranking detalhado de todas as cidades de PE presentes no arquivo,
 Modele payback estimado para 2 opções de franquia (formato tradicional vs delivery/loja compacta) usando parâmetros que você indicar,
 Ou filtre por cidades com renda mediana ≥ X ou tráfego ≥ Y?
 
-Diga qual próximo passo prefere e, se tiver, envie o CSV/JSON com custos de franquia (taxa inicial, royalty), aluguel médio e ticket médio estimado para eu rodar as projeções.
+### Diga qual próximo passo prefere e, se tiver, envie o CSV/JSON com custos de franquia (taxa inicial, royalty), aluguel médio e ticket médio estimado para eu rodar as projeções.
 
 
 <img width="843" height="636" alt="image" src="https://github.com/user-attachments/assets/6a17e05e-c4e4-4f7c-b4b0-4cdde1ee99c8" />
 
 
-Minha próxima pergunta foi:
+## Minha próxima pergunta foi:
 
-Então, das principais cidades do estado de Pernambuco, a que menos possui franquias de fast-food do McDonalds, por exemplo, é Olinda? então seria interessante investir?
+### Então, das principais cidades do estado de Pernambuco, a que menos possui franquias de fast-food do McDonalds, por exemplo, é Olinda? então seria interessante investir?
 
 
 <img width="849" height="640" alt="image" src="https://github.com/user-attachments/assets/4b5f84f6-81d2-468f-a686-0a999c750f62" />
 
 
-E como resposta, o Agente me trouxe mais detalhes baseado em meu arquivo:
+### E como resposta, o Agente me trouxe mais detalhes baseado em meu arquivo:
 
 sim, entre as principais cidades de Pernambuco presentes no seu arquivo, Olinda tem o menor número total de unidades de fast‑food (3), enquanto Recife tem 15 e Jaboatão dos Guararapes 7 .
 
@@ -167,9 +167,9 @@ ou rode uma simulação de receita/payback para um piloto em Olinda se você inf
 <img width="843" height="545" alt="image" src="https://github.com/user-attachments/assets/0d8aa9e7-08f9-481a-b137-5adc00c8d261" />
 
 
-E minha última pergunta, para evitar tornar o README ainda mais longo, foi:
+## E minha última pergunta, para evitar tornar o README ainda mais longo, foi:
 
-Roda uma simulação de receita para um piloto em Olinda? consegue me trazer em formato de gráficos também? 
+### Roda uma simulação de receita para um piloto em Olinda? consegue me trazer em formato de gráficos também? 
 
 <img width="846" height="640" alt="image" src="https://github.com/user-attachments/assets/e3d2de07-0ab9-477c-86b0-ccee2cdd4a34" />
 
@@ -179,7 +179,7 @@ E por fim, após a troca de mensagens sobre o que exatamente busco nessa anális
 <img width="1189" height="990" alt="image" src="https://github.com/user-attachments/assets/4d792ca4-cccc-437e-adca-19b0ea3ff241" />
 
 
-O código
+## O código gerado pelo AZURE AI FOUNDRY
 
 <img width="1117" height="649" alt="image" src="https://github.com/user-attachments/assets/abe12ec9-4784-41a4-a2ea-887a9c89e679" />
 
@@ -188,5 +188,6 @@ https://marianadelima-souza-380-resource.services.ai.azure.com/api/projects/mari
 
 
 
+Obrigada pela atenção!
 
 
