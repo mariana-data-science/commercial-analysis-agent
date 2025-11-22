@@ -179,6 +179,10 @@ E por fim, após a troca de mensagens sobre o que exatamente busco nessa anális
 <img width="1189" height="990" alt="image" src="https://github.com/user-attachments/assets/4d792ca4-cccc-437e-adca-19b0ea3ff241" />
 
 
+O código
+
+<img width="1117" height="649" alt="image" src="https://github.com/user-attachments/assets/abe12ec9-4784-41a4-a2ea-887a9c89e679" />
+
 
 
 
