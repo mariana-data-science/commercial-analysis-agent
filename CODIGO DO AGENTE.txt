@@ -1,0 +1,69 @@
+﻿from azure.ai.projects import AIProjectClient
+from azure.identity import DefaultAzureCredential
+from azure.ai.agents.models import ListSortOrder
+
+
+# ----------------------------------------
+# CONFIGURAÇÃO DO PROJETO E AGENTE
+# ----------------------------------------
+
+
+project = AIProjectClient(
+    credential=DefaultAzureCredential(),
+    endpoint="https://marianadelima-souza-380-resource.services.ai.azure.com/api/projects/marianadelima_souza-3807"
+)
+
+
+# ID DO AGENTE 
+agent = project.agents.get_agent("asst_YEUxBgcsLTxUvrj4wz8zh0Ng")
+
+
+# ----------------------------------------
+# INICIAR UMA THREAD DE CONVERSA
+# ----------------------------------------
+
+
+thread = project.agents.threads.create()
+print(f"Created thread, ID: {thread.id}")
+
+
+# ----------------------------------------
+# ENVIAR MENSAGEM DO USUÁRIO PARA O AGENTE
+# ----------------------------------------
+
+
+message = project.agents.messages.create(
+    thread_id=thread.id,
+    role="user",
+    content="Hi analysis-agent"
+)
+
+
+# ----------------------------------------
+# PROCESSAR A MENSAGEM (EXECUTAR O AGENTE)
+# ----------------------------------------
+
+
+run = project.agents.runs.create_and_process(
+    thread_id=thread.id,
+    agent_id=agent.id
+)
+
+
+# ----------------------------------------
+# EXIBIR RESPOSTAS
+# ----------------------------------------
+
+
+if run.status == "failed":
+    print(f"Run failed: {run.last_error}")
+else:
+    messages = project.agents.messages.list(
+        thread_id=thread.id,
+        order=ListSortOrder.ASCENDING
+    )
+
+
+    for message in messages:
+        if message.text_messages:
+            print(f"{message.role}: {message.text_messages[-1].text.value}")
