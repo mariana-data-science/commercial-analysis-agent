@@ -56,8 +56,8 @@ Com tudo configurado, abri o playground para testar interações com o agente.
 <img width="691" height="567" alt="imagem de uma modelagem criada no site draw.io. O intuito dessa modelagem é mostrar o processo de treinamento do agente de IA" src="https://github.com/user-attachments/assets/dd69b67d-d6b8-44f4-a781-d57e2904c948" />
 
 
-Melhorar esse ponto e colocar a descrição detalhada, que por ora, se trata da modelagem que utilizei para a criacao do agente
-Resumo temp. - Eu fiz todo esse processo de dados e treinamento, tanto com dados fictios quanto reais, e ai quando chega ao usuario final, ele pode alimentar o agente com APIs e também com queries/csvs, outras formas de dados para obter respostas mais específicas para o seu negócio. 
+Criei um pipeline completo para desenvolver o agente, incluindo coleta, pré-processamento e treinamento de modelos usando dados reais e também dados fictícios. Depois do deploy, o agente pode ser alimentado pelo usuário final com diferentes fontes, como APIs externas, arquivos CSV, queries e bases próprias, permitindo gerar respostas específicas e adaptadas ao contexto de cada negócio.
+A arquitetura integra o modelo treinado, a base de conhecimento e as fontes externas, garantindo que o agente processe, refine e entregue insights precisos, mantendo um ciclo contínuo de melhoria.
 
 
 ### Perguntas para fazer ao Agente e testar o modelo
